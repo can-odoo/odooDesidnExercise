@@ -55,10 +55,10 @@
         </nav>
     </header>
 
-    <section class="pt-5 bg-primary">
+    <section class="pt-5 bg-primary section-padding">
         <div class="container align-items-center">
             <div class="row">
-                <div class="col-lg-7 col-sm-6 mt-5">
+                <div class="col-lg-7 col-md-12 col-sm-12 mt-5">
                     <h2 class="col-lg-6 display-4 mb-4 pl-0 text-white">Development done right</h2>
                     <p class="col-lg-6 col-sm lead mb-5 pl-0 text-white">Build a beautiful, modern website with flexible components built from scratch.</p>
                     <button type="button" class="btn btn-light btn-lg py-3 px-5">Get started</button>
@@ -88,7 +88,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-5 col-sm-6">
+                <div class="col-lg-5 col-md-12 col-sm-12" style="max-width: 550px;min-width: 355px;">
                     <div class="card card-radius">
                         <div class="card-body">
                             <div class="d-flex justify-content-between pb-4 align-items-baseline">
@@ -143,26 +143,256 @@
             </div>
         </div>
     </section>
-    <div class="triangle-header"></div>
+    <div class="triangle triangle-header mb-5"></div>
 
-    <section class="pt-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md-6" >
-                    <img src="./docs/img/person_01.jpg" alt="responsive webite" class="img-fluid">
+    <!-- Image-Text -->
+    <section class="pt-5 pb-5 section-padding">
+        <div class="container mt-5">
+            <div class="justify-content-between row">
+                <div class="col-xl-5 col-lg-5 col-md-5" >
+                    <div class="card position-relative">
+                        <div class="card-body">
+                            <img class="w-75 rounded-3 position-absolute z-1 bottom-50 start-50" src="./docs/img/img_01.jpg" alt="person_02">
+                            <ul class="list-group list-group-flush test">
+                                <li class="list-group-item mb-4">
+                                    <h5 class="ml-0">Awesome projects</h5>
+                                </li>
+                                <li class="list-group-item mb-4">
+                                    <div class="d-flex justify-content-between">
+                                        <h6 class="card-title">Create the new logo</h6>
+                                        <span>3.50</span>
+                                    </div>
+                                    <div class="progress" style="height: 2px;">
+                                        <div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item mb-4">
+                                    <div class="d-flex justify-content-between">
+                                        <h6 class="card-title">Set up the color palette</h6>
+                                        <span>3.50</span>
+                                    </div>
+                                    <div class="progress" style="height: 2px;">
+                                        <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item mb-3">
+                                    <div class="d-flex justify-content-between">
+                                        <h6 class="card-title">Wireframe and prototype</h6>
+                                        <span>6.50</span>
+                                    </div>
+                                    <div class="progress" style="height: 2px;">
+                                        <div class="progress-bar bg-warning" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-6" >
+                <div class="col-xl-5 col-lg-5 col-md-5" >
                     <span class="badge rounded-pill bg-warning mb-4 p-2">Tools</span>
-                    <h2>We build for designers and developers</h2>
-                    <p class="text-muted">Get components and examples, including tons of variables that will helo you grow your business</p>
+                    <h2>We build for designers and<br> developers</h2>
+                    <p class="text-muted">Get components and examples, including tons of<br> variables that will helo you grow your business</p>
                 </div>
             </div>
         </div>
     </section>
 
 
+    <!-- Text-Image Features -->
+    <section class="pt-5 section-padding">
+        <div class="container">       
+            <div class="row featurette">
+                <div class="col-md-7 align-self-lg-center">
+                    <span class="badge rounded-pill bg-success p-2 mb-4">Features</span>
+                    <p class="h5 col-7" style="line-height: 2.0em;">
+                        Get components and examples, including tons of variables that will help you grow your business.
+                    </p>
+                    <div class="text-success fw-bold mt-4">
+                        <p><i class="bi bi-check2-square pe-2"></i>Perfect for modern startups</p>
+                        <p><i class="bi bi-check2-square pe-2"></i>Fully customizable and scalable</p>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <button class="btn btn-light m-3 position-absolute">Play video<i class="bi bi-play-fill ps-3"></i></button>
+                    <img src="./docs/img/img_02.jpg" alt="img_02" class="rounded-3 img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Text Technology -->
+    <section class="pt-5 pb-5 section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="align-items-center col-lg-6 col-md-12 d-flex justify-content-around">
+                    <div class="col-xl-2 col-lg-2 col-md-2">
+                        <div class="card shadow" style="width: 14rem;">
+                            <img src="./docs/img/person_03.jpg" alt="responsive webite" class="img-fluid">
+                            <div class="card-body d-flex align-items-baseline justify-content-between">
+                                <span class="badge rounded-circle bg-warning mb-4 p-2">JH</span>
+                                <h6 class="card-title pt-3 pl-3">Jimmy Hendrix</h6>
+                                <i class="bi bi-suit-heart ms-4"></i>
+                            </div>
+                        </div>
+                        <div class="card shadow mt-3" style="width: 14rem;">
+                            <div class="card-body d-flex align-items-baseline justify-content-around">
+                                <span class="badge rounded-circle bg-success mb-4 p-2"><i class="bi bi-check2"></i></span>
+                                <div class="card-text">
+                                    <h6>300+ Component</h6>
+                                    <span style="font-size: 0.8rem;">Build to be customized.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4">
+                        <div class="card text-center mb-2 shadow" style="width: 14rem;">
+                            <div class="card-body">
+                                <img src="./docs/img/airbnb.svg" alt="responsive webite" class="img-fluid w-50 mt-4 mb-4">
+                                <div class="mb-4">
+                                    <i class="bi bi-star text-warning"></i>
+                                    <i class="bi bi-star text-warning"></i>
+                                    <i class="bi bi-star text-warning"></i>
+                                    <i class="bi bi-star text-warning"></i>
+                                    <i class="bi bi-star text-black-50"></i>
+                                </div>
+                                <h6>4.95 out of 5 stars</h6>
+                                <div class="mb-4 text-muted">from 23 reviews</div>
+                            </div>
+                        </div>
+                        <div class="card text-center mt-2 shadow" style="width: 14rem;">
+                            <div class="card-body">
+                                <img src="./docs/img/company_01.png" alt="responsive webite" class="img-fluid rounded-circle mt-4 mb-4">
+                                <h6>Website UI kit</h6>
+                                <div class="d-flex justify-content-center mt-4">
+                                    <img class="w-25 rounded-circle" src="./docs/img/person_01.jpg" alt="">
+                                    <img class="w-25 rounded-circle" src="./docs/img/person_02.jpg" alt="">
+                                    <img class="w-25 rounded-circle" src="./docs/img/person_03.jpg" alt="">
+                                </div>
+                                <hr>
+                                <div class="d-flex justify-content-around mt-4">
+                                    <i class="bi bi-paperclip ms-4"></i>
+                                    <i class="bi bi-eye"></i>
+                                    <i class="bi bi-suit-heart me-4"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-6 col-lg-6 col-md-6 align-self-center" >
+                    <span class="badge rounded-pill bg-primary mb-4 p-2">Technology</span>
+                    <h2>We use the latest technologies on the market</h2>
+                    <p class="text-muted">Get components and examples, including tons of variables that will help you grow your business.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Text-Image Easy to Install -->
+    <section class="pt-5 pb-4 section-padding">
+        <div class="container">       
+            <div class="row featurette">
+                <div class="col-md-7 align-self-lg-center">
+                    <span class="badge rounded-pill bg-warning p-2 mb-4">Easy to Install</span>
+                    <h3 class="fw-300">Download, install and run.</h3>
+                    <p class="h5 col-7 text-muted" style="line-height: 2.0em;">
+                        Get components and examples, including tons of variables that will help you grow your business.
+                    </p>
+                    <img class="w-25 me-4" src="https://www.svgrepo.com/show/303128/download-on-the-app-store-apple-logo.svg" alt="app-store" >
+                    <img class="w-25" src="https://www.svgrepo.com/show/303139/google-play-badge-logo.svg" alt="">
+                </div>
+                <div class="col-md-5">
+                    <button class="btn btn-light m-3 position-absolute">Play video<i class="bi bi-play-fill ps-3"></i></button>
+                    <img src="./docs/img/img_03.jpg" alt="img_02" class="rounded-3 img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- infinite solution -->
+    <section class="section-padding">
+        <div class="row bg-footer text-white p-5 d-flex align-items-center infinite-border mt-5">
+            <div class="col-10 p-2">
+                <h3>Infinite solutions</h3>
+                <span>Intuitive markup, powerful and lightning-fast build tools,<br>
+                    everything you need to turn your ideas into incredible products</span>
+            </div>
+            <div class="col-2">
+                <button class="btn btn-light">Learn more</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Awards -->
+    <section class="section-padding pt-5 pb-5" style="background-color: #f0f7f7;">
+        <div class="container">
+            <div>
+                <span class="badge rounded-pill bg-primary">Awards</span>
+                <h4>Awards for design, cretivity and innovation on the Internet</h4>
+            </div>
+            <div class="d-flex mt-5 ms-5">
+                <div class="card text-center shadow odd card-style" style="width: 200px;">
+                    <div class="card-body">
+                        <img src="./docs/img/airbnb.svg" alt="responsive webite" class="img-fluid w-50 mt-4 mb-4">
+                        <div class="mb-4">
+                            <i class="bi bi-star text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                            <i class="bi bi-star text-black-50"></i>
+                        </div>
+                        <span class="fs-6">4.95 out of 5 stars</span>
+                        <div class="mb-4 text-muted">from 23 reviews</div>
+                    </div>
+                </div>
+                <div class="card text-center shadow even ms-4 card-style" style="width: 200px;">
+                    <div class="card-body">
+                        <img src="./docs/img/amazon.svg" alt="responsive webite" class="img-fluid w-75 mt-2">
+                    </div>
+                    <div class="mb-2">
+                        <span class="text-muted" style="font-size: 12px;">They build modern<br>looking websites easily<br>using Tabs.</span>
+                    </div>
+                    <span class="border-bottom">Learn more</span>
+                </div>
+                <div class="card text-center shadow odd ms-4 card-style" style="width: 200px;">
+                    <div class="card-body">
+                        <img src="./docs/img/slack.svg" alt="responsive webite" class="img-fluid w-75 mt-2">
+                    </div>
+                    <div class="mb-2">
+                        <span class="text-muted" style="font-size: 12px;">They build modern<br>looking websites easily<br>using Tabs.</span>
+                    </div>
+                    <span class="border-bottom">Learn more</span>
+                </div>
+                <div class="card text-center shadow even ms-4 card-style" style="width: 200px;">
+                    <div class="card-body">
+                        <img src="./docs/img/spotify.svg" alt="responsive webite" class="img-fluid w-75 mt-4 mb-4">
+                        <div class="mb-4">
+                            <i class="bi bi-star text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                            <i class="bi bi-star text-black-50"></i>
+                        </div>
+                        <span class="fs-6">4.95 out of 5 stars</span>
+                        <div class="mb-4 text-muted">from 23 reviews</div>
+                    </div>
+                </div>
+                <div class="card text-center shadow odd ms-4 card-style" style="width: 200px;">
+                    <div class="card-body">
+                        <img src="./docs/img/paypal.svg" alt="responsive webite" class="img-fluid w-75 mt-2">
+                    </div>
+                    <div class="mb-2">
+                        <span class="text-muted" style="font-size: 12px;">They build modern<br>looking websites easily<br>using Tabs.</span>
+                    </div>
+                    <span class="border-bottom">Learn more</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="triangle triangle-awards"></div>
+
     <!-- Accordion -->
-    <section class="pt-5">
+    <section class="pt-5 section-padding    ">
         <div class="container">
             <div class="pb-2">
                 <h2 class="text-center">Helpful answers</h2>
@@ -173,63 +403,135 @@
                     <div class="accordion" id="accordionExample">
                         <div class="card m-5 shadow">
                             <div class="accordion-item">
-                              <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                  Which license do I nedd?
-                                </button>
-                              </h2>
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Which license do I nedd?
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>This is the first item's accordion body.</strong> It is shown by default,
+                                        until the collapse plugin adds the appropriate classes that we use to style each
+                                        element. These classes control the overall appearance, as well as the showing and
+                                        hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                        our default variables. It's also worth noting that just about any HTML can go within
+                                        the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="card m-5 shadow">
                             <div class="accordion-item">
-                              <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                  How do I get access to my database?
-                                </button>
-                              </h2>
+                                <h2 class="accordion-header" id="headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        How do I get access to my database?
+                                    </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                        until the collapse plugin adds the appropriate classes that we use to style each
+                                        element. These classes control the overall appearance, as well as the showing and
+                                        hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                        our default variables. It's also worth noting that just about any HTML can go within
+                                        the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="card m-5 shadow">
                             <div class="accordion-item">
-                              <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                  How do I see previous orders?
-                                </button>
-                              </h2>
+                                <h2 class="accordion-header" id="headingSix">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        How do I see previous orders?
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until
+                                    the collapse plugin adds the appropriate classes that we use to style each element.
+                                    These classes control the overall appearance, as well as the showing and hiding via CSS
+                                    transitions. You can modify any of this with custom CSS or overriding our default
+                                    variables. It's also worth noting that just about any HTML can go within the
+                                    <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
                             </div>
                         </div>
-                      </div>
+                    </div>
                 </div>
                 <div class="col-6 col-mg-6">
                     <div class="accordion" id="accordionExample">
                         <div class="card m-5 shadow">
                             <div class="accordion-item">
-                              <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                  Which license do I nedd?
-                                </button>
-                              </h2>
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                        Which license do I nedd?
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the first item's accordion body.</strong> It is shown by default, until
+                                    the collapse plugin adds the appropriate classes that we use to style each element.
+                                    These classes control the overall appearance, as well as the showing and hiding via CSS
+                                    transitions. You can modify any of this with custom CSS or overriding our default
+                                    variables. It's also worth noting that just about any HTML can go within the
+                                    <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
                             </div>
                         </div>
                         <div class="card m-5 shadow">
                             <div class="accordion-item">
-                              <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                  How do I get access to my database?
-                                </button>
-                              </h2>
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        How do I get access to my database?
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>This is the first item's accordion body.</strong> It is shown by default,
+                                        until the collapse plugin adds the appropriate classes that we use to style each
+                                        element. These classes control the overall appearance, as well as the showing and
+                                        hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                        our default variables. It's also worth noting that just about any HTML can go within
+                                        the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="card m-5 shadow">
                             <div class="accordion-item">
-                              <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                  How do I see previous orders?
-                                </button>
-                              </h2>
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        How do I see previous orders?
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the first item's accordion body.</strong> It is shown by default, until
+                                    the collapse plugin adds the appropriate classes that we use to style each element.
+                                    These classes control the overall appearance, as well as the showing and hiding via CSS
+                                    transitions. You can modify any of this with custom CSS or overriding our default
+                                    variables. It's also worth noting that just about any HTML can go within the
+                                    <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
                             </div>
                         </div>
-                      </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -244,17 +546,17 @@
         </div>
     </div>
 
-    <div class="triangle-footer"></div>
+    <div class="triangle triangle-footer"></div>
     <!-- Footer -->
     <section class="bg-footer">
         <div class="container pt-5 pb-5 text-white">
             <div class="row">
-                <div class="col-6">
+                <div class="col-8 col-md-7 col-sm-12">
                     <h3>Brilliant solutions for your ideas</h3>
                     <span class="text-white">Modern looking websites.</span>
                 </div>
-                <div class="col-6">
-                    <button class="btn btn-light me-2">Documentation</button>
+                <div class="col-4 col-md-5 col-sm">
+                    <button class="btn btn-light me-2"><i class="bi bi-journals pe-2"></i>Documentation</button>
                     <button class="btn btn-primary ms-2 me-2">Purchase Now</button>
                 </div>
             </div>

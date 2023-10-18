@@ -4,6 +4,10 @@
     background-color: #007bff !important;
 }
 
+.section-padding {
+    padding: 0px 200px;
+}
+
 .creditcard {
     text-transform: uppercase;
     background-color: #1d1348;
@@ -19,22 +23,28 @@
     border-radius: 15px 15px 90px 15px;
 }
 
-.triangle-header {
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 100px 100vw 0 0; // top rh bottom lh
-    border-color: #007bff transparent;
-    margin-left: -14.5px;
+.test .list-group-item {
+    border-bottom: none;
 }
 
-.triangle-footer {
+.triangle {
     width: 0;
     height: 0;
     border-style: solid;
     border-width: 100px 100vw 0 0;
-    border-color: transparent #170a4e ;
     margin-left: -14.5px;
+}
+
+.triangle-header {
+    border-color: #007bff transparent;
+}
+
+.triangle-footer {
+    border-color: transparent #170a4e;
+}
+
+.triangle-awards {
+    border-color: #f0f7f7 transparent;
 }
 
 .bg-footer {
@@ -44,5 +54,31 @@
 .accordion {
     // --bs-accordion-btn-icon: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e);
     --bs-accordion-btn-icon: url(https://www.svgrepo.com/show/522437/plus.svg);
+}
+
+.infinite-border {
+    border-radius: 0px 50px;
+}
+
+.card-style {
+    max-width: 165px;
+    min-width: 150px;
+    height: 210px;
+    transition: transform 0.5s;
+    
+}
+
+.odd {
+    margin-top: 5em;
+}
+.odd:hover {
+	transform: scale(1.1);
+}
+
+.even {
+    margin-bottom: 5em;
+}
+.even:hover {
+	transform: scale(1.1);
 }
 // border-radius: 15px 15px 90px 15px !important;
